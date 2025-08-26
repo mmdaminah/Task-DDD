@@ -8,4 +8,5 @@ public interface TaskRepository {
     Optional<Task> findById(TaskId id);
     List<Task> findAll();
     void delete(TaskId id);
+    Task update(Task task);
 }
